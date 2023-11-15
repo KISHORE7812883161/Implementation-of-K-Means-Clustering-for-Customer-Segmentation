@@ -37,11 +37,11 @@ Evaluate the clustering results: Once convergence is reached, evaluate the quali
 Select the best clustering solution: If the evaluation metrics allow for it, you can compare the results of multiple clustering runs with different K values and select the one that best suits your requirements
 
 ## Program:
-
+```
 /*
 Program to implement the K Means Clustering for Customer Segmentation.
-Developed by:CHANDRAMOHAN S 
-RegisterNumber: 212221223002
+Developed by: KISHORE M 
+RegisterNumber: 212221043003
 */
 
 
@@ -90,7 +90,7 @@ plt.scatter(df4["Annual Income (k$)"],df4["Spending Score (1-100)"],c="magenta",
 plt.legend()
 plt.title("Customer Segmets")
 
-
+```
 ## Output:
 ### data.head() :
 ![image](https://github.com/Yogabharathi3/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/118899387/198aba89-c927-41ae-937e-9a1d8fad6ff0)
